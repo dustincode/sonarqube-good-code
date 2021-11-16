@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SonarqubeGoodCodeApplication {
 
 	public static void main(String[] args) {
+		String password = "abc123";
 		SpringApplication.run(SonarqubeGoodCodeApplication.class, args);
 	}
 
